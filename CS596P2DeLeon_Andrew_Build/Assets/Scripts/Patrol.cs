@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Lazy Flight simulator.
+
 public class Patrol : MonoBehaviour {
 
     public float speed;
@@ -9,6 +11,7 @@ public class Patrol : MonoBehaviour {
     private float waitTime;
     public float startWaitTime;
 
+    //Random places to be at.
     public float minX;
     public float minY;
     public float minZ;
@@ -42,6 +45,8 @@ public class Patrol : MonoBehaviour {
 }
 
 /*
+ * //Guided flight patterns with programamble moveSpots.
+ * 
  * public class Patrol : MonoBehaviour {
 
     public float speed;

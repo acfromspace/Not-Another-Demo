@@ -7,6 +7,7 @@ public class FlockController : MonoBehaviour {
     private int flockSize = 20;
     public float SpeedModifier = 5;
 
+    //SerializeField allows for fixing within the inspector, could just change to public
     [SerializeField]
     private float alignmentWeight = 1;
 

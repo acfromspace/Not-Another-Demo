@@ -1123,11 +1123,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpeedModifier: 5
   alignmentWeight: 1
-  cohesionWeight: 1
+  cohesionWeight: 5
   separationWeight: 20
   followWeight: 5
   prefab: {fileID: 114993763689811736, guid: 678b8e097433ec54ba8e2eb7ef5f8ef0, type: 2}
-  spawnRadius: 3
+  spawnRadius: 20
   target: {fileID: 1276109605}
 --- !u!4 &1974077314
 Transform:

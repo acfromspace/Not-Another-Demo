@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Not used, replaced w/ AI Unity Tech.
+
 public class EnemyFollow : MonoBehaviour {
 
     public float speed;

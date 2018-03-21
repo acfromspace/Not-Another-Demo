@@ -12,6 +12,7 @@ public class Boid : MonoBehaviour
     //The Boid's current direction.
     private Vector3 direction;
 
+    //Utilization of the Flock Controller
     public FlockController FlockController
     {
         get { return flockController; }
@@ -25,10 +26,11 @@ public class Boid : MonoBehaviour
         direction = transform.forward.normalized;
         if (flockController != null)
         {
-            Debug.LogError("You must assign a flock controller!");
+            Debug.LogError("Flock controller required.");
         }
     }
 
+    // Return the direction of the target so the boid knows where to go
     private void Update()
     {
         targetDirection = FlockController.Flock(this, transform.localPosition, direction);

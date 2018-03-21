@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 2039
+  controlID: 2234
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 221}
   m_MaxSize: {x: 12008, y: 4021}
   vertical: 0
-  controlID: 2040
+  controlID: 2235
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_MinSize: {x: 434, y: 271}
   m_MaxSize: {x: 14004, y: 10021}
   vertical: 0
-  controlID: 1994
+  controlID: 2189
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 415.5, y: 17.439987, z: 0}
+    m_Target: {x: 415.5, y: 61.062325, z: -2.3238192}
     speed: 2
-    m_Value: {x: 415.5, y: 17.439987, z: 0}
+    m_Value: {x: 415.5, y: 61.062325, z: -2.3238192}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -426,9 +426,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 86.94059
+    m_Target: 319.309
     speed: 2
-    m_Value: 86.94059
+    m_Value: 319.309
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -583,19 +583,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/The_Texture_Lab/TL_Prototype_Textures_Pack/Materials/Nature_Materials
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/The_Texture_Lab/TL_Prototype_Textures_Pack/Materials/Nature_Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\EVADELEON2\Documents\CS 596 Files\CS596P2DeLeon_Andrew\CS596P2DeLeon_Andrew_Build
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 98}
-    m_SelectedIDs: 202b0000
-    m_LastClickedID: 11040
-    m_ExpandedIDs: 00000000482800005c290000ac290000e4290000402a0000062b0000da2c0000dc2c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 042a0000
+    m_LastClickedID: 10756
+    m_ExpandedIDs: 00000000482800005c290000ac290000e4290000402a00008a2c00008c2c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -623,7 +623,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000482800005c290000ac290000e4290000402a0000062b0000da2c0000dc2c000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000482800005c290000ac290000e4290000402a00008a2c00008c2c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000c2800007e2900000e290000a2280000882b000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -707,9 +707,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 76280000
+    m_SelectedIDs: 7a280000
     m_LastClickedID: 0
-    m_ExpandedIDs: 8edeffff9efbffff000000006e2c0000582f0000
+    m_ExpandedIDs: 1aa6ffff1ab6ffff14d6ffff9efbffff00000000302c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
