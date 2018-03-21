@@ -606,7 +606,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.6627451, g: 0.72156864, b: 1, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -719,7 +719,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 29f73ae28b2022646902efa607959d6c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1124,7 +1124,7 @@ MonoBehaviour:
   SpeedModifier: 5
   alignmentWeight: 1
   cohesionWeight: 1
-  separationWeight: 1
+  separationWeight: 20
   followWeight: 5
   prefab: {fileID: 114993763689811736, guid: 678b8e097433ec54ba8e2eb7ef5f8ef0, type: 2}
   spawnRadius: 3
