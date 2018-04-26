@@ -7,12 +7,22 @@ public class LevelManager : MonoBehaviour {
 
     public void LaunchLazyFlight()
     {
-        SceneManager.LoadScene("LazyFlight");
+        SceneManager.LoadScene("Lazy Flight");
     }
 
-    public void LaunchFlock()
+    public void LaunchFollowTheLeader()
     {
-        SceneManager.LoadScene("Flock");
+        SceneManager.LoadScene("Follow the Leader");
+    }
+
+    public void LaunchMultiplayer()
+    {
+        SceneManager.LoadScene("Multiplayer");
+    }
+
+    public void LaunchMainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 
     public void LaunchQuitGame()

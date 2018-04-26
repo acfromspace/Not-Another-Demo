@@ -25,17 +25,22 @@ public class PlayerController : NetworkBehaviour {
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            Fire();
+            CmdFire();
         }
     }
 
-    void Fire()
+    // Only let the singular player fire to server for the instance
+    [Command]
+    void CmdFire()
     {
         // Create bullet from prefab
         GameObject bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
 
         // Add velocity to bullet
         bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 6.0f;
+
+        // Spawn the bullet on clients
+        NetworkServer.Spawn(bullet);
 
         // Destroy bullet
         Destroy(bullet, 2);
