@@ -1,6 +1,6 @@
-WindowsStandalone
+WebGL
 PlayerPath?
-C:/Users/EVADELEON2/Desktop/CS596P2DeLeon_Andrew/CS596P2DeLeon_Andrew_EXE/Demo_Game.exe
+C:/Users/EVADELEON2/Desktop/CS596P2DeLeon_Andrew/CS596P2DeLeon_Andrew_WEBGL_EXE
 SceneListBegin?
 Assets/Scenes/Main Menu.unity
 Assets/Scenes/Lazy Flight.unity
