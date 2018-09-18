@@ -11,7 +11,7 @@
   <span role="img" aria-label="Flower Playing Cards">🎴</span>
 </h3>
 <p align="center">
-  <strong>not another demo</strong><br>
+  <strong>Machine learning and networking application.</strong><br>
   Created with <a href="https://unity3d.com/" target="_blank">Unity</a> to showcase AI behaviors and networking capabilities.
 </p>
 
