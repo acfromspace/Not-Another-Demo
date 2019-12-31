@@ -15,7 +15,7 @@
   Created with <a href="https://unity3d.com/" target="_blank">Unity</a> to showcase AI behaviors and networking capabilities.
 </p>
 
-<!-- INFORMATION (Shields:IO) -->
+<!-- BADGES -->
 
 <p align="center">
     <!-- HEY DON'T FORGET TO FIX THE URLS -->
