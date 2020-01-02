@@ -31,7 +31,7 @@
   <img src="https://user-images.githubusercontent.com/10361542/45655489-6c059a00-ba95-11e8-881b-e58cb6deaf86.gif">
 </p>
 
-_not another demo_ is a application with the following features:
+_not another demo_ is an application with the following features:
 
 - **Premise.** Create a game application that showcases artificial intelligence manuevers such as "Lazy Flight" and "Circle a Tree" behaviors. Also showcase networking capabilities so two players can coexist in the same environment from different computers.
 - **Design.** A simple main menu that showcases each of the designs.
